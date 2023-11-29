@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{8C1A20B0-78BC-4A86-6177-5EDA4DB8D1D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor">
+      <UniqueIdentifier>{935FDCD7-7F01-07AE-68BC-1A0254FD8DFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\imgui">
+      <UniqueIdentifier>{3D8F64D2-29F2-F376-D277-2C2DBEB9BFF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Editor\EditorApp.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Editor\EditorGUI.h" />
+    <ClInclude Include="Src\Editor\ProjectManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Editor\EditorApp.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Editor\EditorGUI.cpp" />
+    <ClCompile Include="Src\Editor\ProjectManager.cpp" />
+  </ItemGroup>
+</Project>

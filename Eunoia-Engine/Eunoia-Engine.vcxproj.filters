@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Eunoia">
+      <UniqueIdentifier>{E66256B1-D204-8187-BBBF-94DBA70008D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Core">
+      <UniqueIdentifier>{FE469FAC-6AFC-17A2-F3F0-11795FA50EA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\DataStructures">
+      <UniqueIdentifier>{D3F44E86-3F61-0A81-0855-A2DE74802CE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\ECS">
+      <UniqueIdentifier>{305A146A-1C12-56B7-8519-2F1371F0F0A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\ECS\Components">
+      <UniqueIdentifier>{4581368F-B1ED-F189-7AE1-89E7E60C14F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\ECS\Systems">
+      <UniqueIdentifier>{37E0FD4C-23C4-BEA2-8C24-B9F57827A924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Math">
+      <UniqueIdentifier>{7F87A4AC-EB3C-1DA2-7431-1779E0E513A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Memory">
+      <UniqueIdentifier>{8E1B2968-FADB-A49E-C316-EE1B2F96E97A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Metadata">
+      <UniqueIdentifier>{56F82C26-C283-9AEA-CB94-1DDF379FF6EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Platform">
+      <UniqueIdentifier>{FA41D1DA-66CD-3E9F-6FDE-C193DBE89A9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Platform\GLFW">
+      <UniqueIdentifier>{7949662F-65D8-EFF8-0EF7-03F4FA64009F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Platform\OpenGL">
+      <UniqueIdentifier>{EEAD64B7-DAA7-8D09-C314-241AAFADF375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Platform\Windows">
+      <UniqueIdentifier>{344616FC-A07D-5E93-A987-C2B6153E858C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Rendering">
+      <UniqueIdentifier>{B383776B-9F7C-96BD-C8AE-7B42B40676C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eunoia\Utils">
+      <UniqueIdentifier>{C678D041-B2DB-5FE6-5B61-989C47A32B69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor">
+      <UniqueIdentifier>{935FDCD7-7F01-07AE-68BC-1A0254FD8DFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\imgui">
+      <UniqueIdentifier>{3D8F64D2-29F2-F376-D277-2C2DBEB9BFF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\stb_image">
+      <UniqueIdentifier>{EDE315D3-D9DC-3425-020F-1AAAEE661431}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Eunoia\Common.h">
+      <Filter>Eunoia</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Core\Application.h">
+      <Filter>Eunoia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Core\ApplicationInfo.h">
+      <Filter>Eunoia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Core\Engine.h">
+      <Filter>Eunoia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Core\Input.h">
+      <Filter>Eunoia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Core\InputDefs.h">
+      <Filter>Eunoia\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\DataStructures\List.h">
+      <Filter>Eunoia\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\DataStructures\Map.h">
+      <Filter>Eunoia\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\DataStructures\String.h">
+      <Filter>Eunoia\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Components\Components.h">
+      <Filter>Eunoia\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Components\SpriteComponent.h">
+      <Filter>Eunoia\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Components\Transform2DComponent.h">
+      <Filter>Eunoia\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\ECS.h">
+      <Filter>Eunoia\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\ECSLoader.h">
+      <Filter>Eunoia\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\ECSTypes.h">
+      <Filter>Eunoia\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Systems\SpriteSubmissionSystem.h">
+      <Filter>Eunoia\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Systems\Systems.h">
+      <Filter>Eunoia\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Systems\TransformHierarchy2DSystem.h">
+      <Filter>Eunoia\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Eunoia.h">
+      <Filter>Eunoia</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Math\GeneralMath.h">
+      <Filter>Eunoia\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Math\Math.h">
+      <Filter>Eunoia\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Memory\Allocators.h">
+      <Filter>Eunoia\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Metadata\Metadata.h">
+      <Filter>Eunoia\Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Metadata\MetadataInfo.h">
+      <Filter>Eunoia\Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Platform\GLFW\DisplayGLFW.h">
+      <Filter>Eunoia\Platform\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Platform\OpenGL\FinalRendererGL.h">
+      <Filter>Eunoia\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Platform\OpenGL\RenderAPIOpenGL.h">
+      <Filter>Eunoia\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Platform\OpenGL\Renderer2DGL.h">
+      <Filter>Eunoia\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Platform\Windows\DisplayWin32.h">
+      <Filter>Eunoia\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\AssetManager.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\Display.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\DisplayInfo.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\FinalRenderer.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\GuiInit.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\ImGui.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\ImGuiInitTheme.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\RenderAPI.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\RenderObjectIDs.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\Renderer2D.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\Scene.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Rendering\TextureLoader.h">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Utils\FileUtils.h">
+      <Filter>Eunoia\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\Utils\Logger.h">
+      <Filter>Eunoia\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imconfig.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imgui.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imgui_impl_glfw.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imgui_impl_opengl3.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imgui_impl_win32.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imgui_internal.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imstb_rectpack.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imstb_textedit.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\imgui\imstb_truetype.h">
+      <Filter>Vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vendor\stb_image\stb_image.h">
+      <Filter>Vendor\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eunoia\ECS\Components\Camera2DComponent.h" />
+    <ClInclude Include="Src\Eunoia\ECS\Systems\ViewProjection2DSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Eunoia\Core\Application.cpp">
+      <Filter>Eunoia\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Core\Engine.cpp">
+      <Filter>Eunoia\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Core\Input.cpp">
+      <Filter>Eunoia\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\DataStructures\String.cpp">
+      <Filter>Eunoia\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\ECS\ECSLoader.cpp">
+      <Filter>Eunoia\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\ECS\Systems\SpriteSubmissionSystem.cpp">
+      <Filter>Eunoia\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\ECS\Systems\TransformHierarchy2DSystem.cpp">
+      <Filter>Eunoia\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Math\Math.cpp">
+      <Filter>Eunoia\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Memory\Allocators.cpp">
+      <Filter>Eunoia\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Metadata\EunoiaGenerated.cpp">
+      <Filter>Eunoia\Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Metadata\Metadata.cpp">
+      <Filter>Eunoia\Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Platform\GLFW\DisplayGLFW.cpp">
+      <Filter>Eunoia\Platform\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Platform\OpenGL\FinalRendererGL.cpp">
+      <Filter>Eunoia\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Platform\OpenGL\RenderAPIOpenGL.cpp">
+      <Filter>Eunoia\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Platform\OpenGL\Renderer2DGL.cpp">
+      <Filter>Eunoia\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Platform\Windows\DisplayWin32.cpp">
+      <Filter>Eunoia\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\AssetManager.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\Display.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\FinalRenderer.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\GuiInit.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\ImGuiInitTheme.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\RenderAPI.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\Renderer2D.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Rendering\TextureLoader.cpp">
+      <Filter>Eunoia\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Utils\FileUtils.cpp">
+      <Filter>Eunoia\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\Utils\Logger.cpp">
+      <Filter>Eunoia\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_demo.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_draw.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_impl_glfw.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_impl_win32.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_tables.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vendor\imgui\imgui_widgets.cpp">
+      <Filter>Vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Eunoia\ECS\ECS.cpp" />
+    <ClCompile Include="Src\Eunoia\ECS\Systems\ViewProjection2DSystem.cpp" />
+  </ItemGroup>
+</Project>
